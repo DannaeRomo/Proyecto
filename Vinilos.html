@@ -4,12 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 15px; position:fixed; top: 20px; right: 20px;"><b>
-        <a href="Vinilos.html">Vinilos  ></a>
-        <a href="index.html">Volver a Inicio</a>
-    </b></p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="Inicio.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5a6fXIVUrqFNnLJQP8cHn3brPxWTO4KyTRw&usqp=CAU" alt=""></a>
+        <style>
+          body {
+              margin: 0;
+              padding: 0;
+              font-family: Arial, sans-serif;
+          }
+          .search-container {
+              position: fixed;
+              top: 20px;
+              left: 50%;
+              transform: translateX(-50%);
+              background-color: #ffffff;
+              border-radius: 5px;
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+              display: flex;
+              align-items: center;
+              padding: 5px;
+          }
+          .search-container input[type="text"] {
+              border: none;
+              outline: none;
+              padding: 5px;
+              border-radius: 5px;
+          }
+          .search-container button {
+              background-color: #007bff;
+              color: #ffffff;
+              border: none;
+              padding: 5px 10px;
+              border-radius: 5px;
+              cursor: pointer;
+          }
+      </style>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Inicio.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carrito.html">Comprar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Vinilos.html">Vinillos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="formulario.html">Registro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Ofertas.html">Ofertas</a>
+            </li>
+          
+
+              
+           
+          </ul>
+        </div>
+      </nav>
+    
+    
     <style>
         /* Estilos de diseño básicos */
         body {
